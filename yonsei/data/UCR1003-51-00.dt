@@ -1,0 +1,299 @@
+
+
+
+
+
+
+
+
+<script>
+lang = 0
+//lang = 1
+</script>
+
+
+
+
+
+<html>
+<head>
+<title>Simulation Result</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<link REL="Stylesheet" TYPE="text/css" HREF="../css/style.css">
+<script language="JavaScript" src="../jscript/common.js"></script>
+<script language="JavaScript" src="../jscript/language_sg.js"></script>
+<STYLE type="text/css">
+ <!--
+  td {font-size:9pt; font-family:굴림; text-decoration:none; color:5C5C5C; line-height: 12.5pt}
+  pre {font-size:9pt; font-family:굴림; text-decoration:none; color:5C5C5C; line-height: 12.5pt}
+  a:link {font-size:9pt; font-family:굴림; text-decoration:none; color:000000; line-height: 12.5pt}
+  a:visited {font-size:9pt; font-family:굴림; text-decoration:none; color:000000; line-height: 12.5pt}
+  a:hover {font-size:9pt; text-decoration:underline; color:blue; line-height: 12.5pt}
+  #overlay1 {height: 250px; width: 500px; overflow: auto;
+  	scrollbar-face-color: #ffffff;
+	scrollbar-shadow-color: #B5BDCE;
+	scrollbar-highlight-color: #B5BDCE;
+	scrollbar-3dlight-color: #B5BDCE; 
+	scrollbar-darkshadow-color: #B5BDCE;
+	scrollbar-track-color: #ffffff;
+	scrollbar-arrow-color: #B5BDCE;}
+ -->
+</STYLE>
+
+
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+
+<FORM NAME="myForm" method="post">
+	
+
+2015-2학기 1차 모의수강신청에는 다음의 인원이 참가하였습니다.
+		
+<table width="400" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+
+		<td class="BoxLabel_1" align="center" width="100">&nbsp;</td>
+		<td class="BoxLabel_1" align="center" width="100">대상자</td>
+		<td class="BoxLabel_1" align="center" width="100">참가자</td>
+		<td class="BoxLabel_1" align="center" width="100">참여율</td>		
+		
+	</tr>
+	<tr>
+
+
+		<tr>
+
+			<td class="BoxText_1_C" align="center">신촌</td>
+			<td class="BoxText_1_C" align="center">19011</td>
+			<td class="BoxText_1_C" align="center">6380</td>
+			<td class="BoxText_1_C" align="center">33.6%</td>		
+						
+		</tr>
+
+
+	
+	</tr>
+</table>	
+<br>
+	
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="TABLE-LAYOUT: fixed">
+	<tr>
+
+		<td class="BoxLabel_1" align="center" width="100" rowspan="2">학정번호-분반-실습</td>
+		<td class="BoxLabel_1" align="center" width="120" rowspan="2">과목명</td>
+		<td class="BoxLabel_1" align="center" width="40" rowspan="2">학점</td>
+		<td class="BoxLabel_1" align="center" width="100" rowspan="2">담당교수</td>
+		<td class="BoxLabel_1" align="center" width="100" rowspan="2">강의시간</td>
+		<td class="BoxLabel_1" align="center" width="100" rowspan="2">강의실</td>
+		<td class="BoxLabel_1" align="center" width="40" rowspan="2">정원</td>
+		<td class="BoxLabel_1" align="center" width="80" rowspan="2">참여율대비<br>정원</td>
+		<td class="BoxLabel_1" align="center" width="40" rowspan="2">참여<br>인원</td>
+		<td class="BoxLabel_1" align="center" width="150" colspan="3">마일리지</td>
+			
+	</tr>
+	<tr>
+		
+		<td class="BoxLabel_1" align="center" width="50">최소값</td>
+		<td class="BoxLabel_1" align="center" width="50">최대값</td>
+		<td class="BoxLabel_1" align="center" width="50">평균값</td>
+		
+	</tr>	
+	<tr>
+	
+		<tr>
+			<td class="BoxText_1_C" align="center">UCR1003-51-00</td>
+			<td class="BoxText_1_C" align="center">HOLISTIC EDUCATIONⅢ- 오리엔티어링</td>
+			<td class="BoxText_1_C" align="center">1</td>
+			<td class="BoxText_1_C" align="center">문곤성</td>
+			<td class="BoxText_1_C" align="center">수7,8</td>
+			<td class="BoxText_1_C" align="center">I자A305</td>
+			<td class="BoxText_1_C" align="center">30</td>
+			<td class="BoxText_1_C" align="center">11</td>
+			<td class="BoxText_1_C" align="center">13</td>
+			<td class="BoxText_1_C" align="center">1</td>
+			<td class="BoxText_1_C" align="center">36</td>
+			<td class="BoxText_1_C" align="center">13.85</td>
+		</tr>
+
+	</tr>
+</table>	
+<br>
+	
+모의수강신청(시뮬레이션)에 따른 마일리지 순위 결과
+		 
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+	
+		<td class="BoxLabel_1" align="center" width="80">순위</td>
+		<td class="BoxLabel_1" align="center" width="100">마일리지</td>
+		<td class="BoxLabel_1" align="center" width="120">특수교육대상<br>(장애우)</td>
+		<td class="BoxLabel_1" align="center" width="100">전공자<br>복수전공자</td>
+		<td class="BoxLabel_1" align="center" width="100">신청<br>과목수</td>
+		<td class="BoxLabel_1" align="center" width="100">졸업신청</td>
+		<td class="BoxLabel_1" align="center" width="120">총이수학점/<br>졸업이수학점</td>
+		<td class="BoxLabel_1" align="center" width="120">직전학기이수학점/<br>학기당수강학점</td>
+			
+	</tr>
+	<tr>
+	
+		<tr>
+			<td class="BoxText_1_C" align="center">1</td>
+			<td class="BoxText_1_C" align="center">36</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">6</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">0.0</td>
+			<td class="BoxText_1_C" align="center">0.0</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">2</td>
+			<td class="BoxText_1_C" align="center">20</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">6</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">0.0</td>
+			<td class="BoxText_1_C" align="center">0.0</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">3</td>
+			<td class="BoxText_1_C" align="center">20</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">5</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">0.0</td>
+			<td class="BoxText_1_C" align="center">0.0</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">4</td>
+			<td class="BoxText_1_C" align="center">16</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">6</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">0.0</td>
+			<td class="BoxText_1_C" align="center">0.0</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">5</td>
+			<td class="BoxText_1_C" align="center">15</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">6</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">0.0</td>
+			<td class="BoxText_1_C" align="center">0.0</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">6</td>
+			<td class="BoxText_1_C" align="center">15</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">6</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">0.0</td>
+			<td class="BoxText_1_C" align="center">0.0</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">7</td>
+			<td class="BoxText_1_C" align="center">12</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">6</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">0.0</td>
+			<td class="BoxText_1_C" align="center">0.0</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">8</td>
+			<td class="BoxText_1_C" align="center">11</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">6</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">0.0</td>
+			<td class="BoxText_1_C" align="center">0.0</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">9</td>
+			<td class="BoxText_1_C" align="center">10</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">6</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">0.0</td>
+			<td class="BoxText_1_C" align="center">0.0</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">10</td>
+			<td class="BoxText_1_C" align="center">10</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">5</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">25.4</td>
+			<td class="BoxText_1_C" align="center">88.89</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">11</td>
+			<td class="BoxText_1_C" align="center">8</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">6</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">0.0</td>
+			<td class="BoxText_1_C" align="center">0.0</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">12</td>
+			<td class="BoxText_1_C" align="center">6</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">6</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">0.0</td>
+			<td class="BoxText_1_C" align="center">0.0</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">13</td>
+			<td class="BoxText_1_C" align="center">1</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">3</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">0.0</td>
+			<td class="BoxText_1_C" align="center">0.0</td>
+		</tr>
+
+	</tr>
+</table>	
+<br>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td width="100%" align="center" height="25">
+            <a href="javascript:self.close()"><img src="../images/close.gif" border=0></a>
+            </td>
+        </tr>
+</table>
+</form>
+</body>
+</html>
+
+

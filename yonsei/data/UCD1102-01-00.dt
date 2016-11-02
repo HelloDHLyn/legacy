@@ -1,0 +1,783 @@
+
+
+
+
+
+
+
+
+<script>
+lang = 0
+//lang = 1
+</script>
+
+
+
+
+
+<html>
+<head>
+<title>Simulation Result</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<link REL="Stylesheet" TYPE="text/css" HREF="../css/style.css">
+<script language="JavaScript" src="../jscript/common.js"></script>
+<script language="JavaScript" src="../jscript/language_sg.js"></script>
+<STYLE type="text/css">
+ <!--
+  td {font-size:9pt; font-family:굴림; text-decoration:none; color:5C5C5C; line-height: 12.5pt}
+  pre {font-size:9pt; font-family:굴림; text-decoration:none; color:5C5C5C; line-height: 12.5pt}
+  a:link {font-size:9pt; font-family:굴림; text-decoration:none; color:000000; line-height: 12.5pt}
+  a:visited {font-size:9pt; font-family:굴림; text-decoration:none; color:000000; line-height: 12.5pt}
+  a:hover {font-size:9pt; text-decoration:underline; color:blue; line-height: 12.5pt}
+  #overlay1 {height: 250px; width: 500px; overflow: auto;
+  	scrollbar-face-color: #ffffff;
+	scrollbar-shadow-color: #B5BDCE;
+	scrollbar-highlight-color: #B5BDCE;
+	scrollbar-3dlight-color: #B5BDCE; 
+	scrollbar-darkshadow-color: #B5BDCE;
+	scrollbar-track-color: #ffffff;
+	scrollbar-arrow-color: #B5BDCE;}
+ -->
+</STYLE>
+
+
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+
+<FORM NAME="myForm" method="post">
+	
+
+2015-2학기 1차 모의수강신청에는 다음의 인원이 참가하였습니다.
+		
+<table width="400" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+
+		<td class="BoxLabel_1" align="center" width="100">&nbsp;</td>
+		<td class="BoxLabel_1" align="center" width="100">대상자</td>
+		<td class="BoxLabel_1" align="center" width="100">참가자</td>
+		<td class="BoxLabel_1" align="center" width="100">참여율</td>		
+		
+	</tr>
+	<tr>
+
+
+		<tr>
+
+			<td class="BoxText_1_C" align="center">신촌</td>
+			<td class="BoxText_1_C" align="center">19011</td>
+			<td class="BoxText_1_C" align="center">6380</td>
+			<td class="BoxText_1_C" align="center">33.6%</td>		
+						
+		</tr>
+
+
+	
+	</tr>
+</table>	
+<br>
+	
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="TABLE-LAYOUT: fixed">
+	<tr>
+
+		<td class="BoxLabel_1" align="center" width="100" rowspan="2">학정번호-분반-실습</td>
+		<td class="BoxLabel_1" align="center" width="120" rowspan="2">과목명</td>
+		<td class="BoxLabel_1" align="center" width="40" rowspan="2">학점</td>
+		<td class="BoxLabel_1" align="center" width="100" rowspan="2">담당교수</td>
+		<td class="BoxLabel_1" align="center" width="100" rowspan="2">강의시간</td>
+		<td class="BoxLabel_1" align="center" width="100" rowspan="2">강의실</td>
+		<td class="BoxLabel_1" align="center" width="40" rowspan="2">정원</td>
+		<td class="BoxLabel_1" align="center" width="80" rowspan="2">참여율대비<br>정원</td>
+		<td class="BoxLabel_1" align="center" width="40" rowspan="2">참여<br>인원</td>
+		<td class="BoxLabel_1" align="center" width="150" colspan="3">마일리지</td>
+			
+	</tr>
+	<tr>
+		
+		<td class="BoxLabel_1" align="center" width="50">최소값</td>
+		<td class="BoxLabel_1" align="center" width="50">최대값</td>
+		<td class="BoxLabel_1" align="center" width="50">평균값</td>
+		
+	</tr>	
+	<tr>
+	
+		<tr>
+			<td class="BoxText_1_C" align="center">UCD1102-01-00</td>
+			<td class="BoxText_1_C" align="center">현대사회와심리학</td>
+			<td class="BoxText_1_C" align="center">3</td>
+			<td class="BoxText_1_C" align="center">윤소연</td>
+			<td class="BoxText_1_C" align="center">수3,금3,4</td>
+			<td class="BoxText_1_C" align="center">교101</td>
+			<td class="BoxText_1_C" align="center">170</td>
+			<td class="BoxText_1_C" align="center">58</td>
+			<td class="BoxText_1_C" align="center">57</td>
+			<td class="BoxText_1_C" align="center">5</td>
+			<td class="BoxText_1_C" align="center">36</td>
+			<td class="BoxText_1_C" align="center">21.79</td>
+		</tr>
+
+	</tr>
+</table>	
+<br>
+	
+모의수강신청(시뮬레이션)에 따른 마일리지 순위 결과
+		 
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+	
+		<td class="BoxLabel_1" align="center" width="80">순위</td>
+		<td class="BoxLabel_1" align="center" width="100">마일리지</td>
+		<td class="BoxLabel_1" align="center" width="120">특수교육대상<br>(장애우)</td>
+		<td class="BoxLabel_1" align="center" width="100">전공자<br>복수전공자</td>
+		<td class="BoxLabel_1" align="center" width="100">신청<br>과목수</td>
+		<td class="BoxLabel_1" align="center" width="100">졸업신청</td>
+		<td class="BoxLabel_1" align="center" width="120">총이수학점/<br>졸업이수학점</td>
+		<td class="BoxLabel_1" align="center" width="120">직전학기이수학점/<br>학기당수강학점</td>
+			
+	</tr>
+	<tr>
+	
+		<tr>
+			<td class="BoxText_1_C" align="center">1</td>
+			<td class="BoxText_1_C" align="center">36</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">6</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">89.63</td>
+			<td class="BoxText_1_C" align="center">100.0</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">2</td>
+			<td class="BoxText_1_C" align="center">36</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">6</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">53.33</td>
+			<td class="BoxText_1_C" align="center">89.47</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">3</td>
+			<td class="BoxText_1_C" align="center">36</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">6</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">25.93</td>
+			<td class="BoxText_1_C" align="center">94.74</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">4</td>
+			<td class="BoxText_1_C" align="center">36</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">6</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">25.93</td>
+			<td class="BoxText_1_C" align="center">84.21</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">5</td>
+			<td class="BoxText_1_C" align="center">36</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">6</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">21.48</td>
+			<td class="BoxText_1_C" align="center">84.21</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">6</td>
+			<td class="BoxText_1_C" align="center">36</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">5</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">56.43</td>
+			<td class="BoxText_1_C" align="center">100.0</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">7</td>
+			<td class="BoxText_1_C" align="center">36</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">5</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">25.93</td>
+			<td class="BoxText_1_C" align="center">100.0</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">8</td>
+			<td class="BoxText_1_C" align="center">36</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">4</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">24.29</td>
+			<td class="BoxText_1_C" align="center">78.95</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">9</td>
+			<td class="BoxText_1_C" align="center">36</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">3</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">25.0</td>
+			<td class="BoxText_1_C" align="center">100.0</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">10</td>
+			<td class="BoxText_1_C" align="center">36</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">2</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">97.86</td>
+			<td class="BoxText_1_C" align="center">78.95</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">11</td>
+			<td class="BoxText_1_C" align="center">36</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">2</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">88.1</td>
+			<td class="BoxText_1_C" align="center">83.33</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">12</td>
+			<td class="BoxText_1_C" align="center">36</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">1</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">100.0</td>
+			<td class="BoxText_1_C" align="center">68.42</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">13</td>
+			<td class="BoxText_1_C" align="center">36</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">1</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">21.85</td>
+			<td class="BoxText_1_C" align="center">79.17</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">14</td>
+			<td class="BoxText_1_C" align="center">33</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">6</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">24.6</td>
+			<td class="BoxText_1_C" align="center">83.33</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">15</td>
+			<td class="BoxText_1_C" align="center">33</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">5</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">54.29</td>
+			<td class="BoxText_1_C" align="center">94.74</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">16</td>
+			<td class="BoxText_1_C" align="center">31</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">6</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">77.14</td>
+			<td class="BoxText_1_C" align="center">94.74</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">17</td>
+			<td class="BoxText_1_C" align="center">30</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">6</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">28.57</td>
+			<td class="BoxText_1_C" align="center">100.0</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">18</td>
+			<td class="BoxText_1_C" align="center">30</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">5</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">55.71</td>
+			<td class="BoxText_1_C" align="center">94.74</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">19</td>
+			<td class="BoxText_1_C" align="center">30</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">4</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">28.15</td>
+			<td class="BoxText_1_C" align="center">100.0</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">20</td>
+			<td class="BoxText_1_C" align="center">25</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">6</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">81.43</td>
+			<td class="BoxText_1_C" align="center">94.74</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">21</td>
+			<td class="BoxText_1_C" align="center">25</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">6</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">73.81</td>
+			<td class="BoxText_1_C" align="center">83.33</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">22</td>
+			<td class="BoxText_1_C" align="center">25</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">6</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">50.0</td>
+			<td class="BoxText_1_C" align="center">94.74</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">23</td>
+			<td class="BoxText_1_C" align="center">25</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">6</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">28.57</td>
+			<td class="BoxText_1_C" align="center">100.0</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">24</td>
+			<td class="BoxText_1_C" align="center">23</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">6</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">51.59</td>
+			<td class="BoxText_1_C" align="center">88.89</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">25</td>
+			<td class="BoxText_1_C" align="center">22</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">6</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">44.29</td>
+			<td class="BoxText_1_C" align="center">84.21</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">26</td>
+			<td class="BoxText_1_C" align="center">20</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">6</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">65.19</td>
+			<td class="BoxText_1_C" align="center">94.74</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">27</td>
+			<td class="BoxText_1_C" align="center">20</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">6</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">28.57</td>
+			<td class="BoxText_1_C" align="center">89.47</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">28</td>
+			<td class="BoxText_1_C" align="center">20</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">6</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">25.19</td>
+			<td class="BoxText_1_C" align="center">78.95</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">29</td>
+			<td class="BoxText_1_C" align="center">20</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">5</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">77.86</td>
+			<td class="BoxText_1_C" align="center">94.74</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">30</td>
+			<td class="BoxText_1_C" align="center">20</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">5</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">52.86</td>
+			<td class="BoxText_1_C" align="center">94.74</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">31</td>
+			<td class="BoxText_1_C" align="center">20</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">5</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">28.57</td>
+			<td class="BoxText_1_C" align="center">100.0</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">32</td>
+			<td class="BoxText_1_C" align="center">18</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">6</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">43.65</td>
+			<td class="BoxText_1_C" align="center">100.0</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">33</td>
+			<td class="BoxText_1_C" align="center">18</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">6</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">26.67</td>
+			<td class="BoxText_1_C" align="center">100.0</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">34</td>
+			<td class="BoxText_1_C" align="center">16</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">6</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">72.14</td>
+			<td class="BoxText_1_C" align="center">100.0</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">35</td>
+			<td class="BoxText_1_C" align="center">16</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">6</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">27.14</td>
+			<td class="BoxText_1_C" align="center">100.0</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">36</td>
+			<td class="BoxText_1_C" align="center">16</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">5</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">88.1</td>
+			<td class="BoxText_1_C" align="center">83.33</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">37</td>
+			<td class="BoxText_1_C" align="center">15</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">6</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">27.41</td>
+			<td class="BoxText_1_C" align="center">94.74</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">38</td>
+			<td class="BoxText_1_C" align="center">15</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">6</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">26.98</td>
+			<td class="BoxText_1_C" align="center">100.0</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">39</td>
+			<td class="BoxText_1_C" align="center">15</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">6</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">26.43</td>
+			<td class="BoxText_1_C" align="center">94.74</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">40</td>
+			<td class="BoxText_1_C" align="center">15</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">3</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">26.43</td>
+			<td class="BoxText_1_C" align="center">84.21</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">41</td>
+			<td class="BoxText_1_C" align="center">14</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">6</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">54.76</td>
+			<td class="BoxText_1_C" align="center">94.44</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">42</td>
+			<td class="BoxText_1_C" align="center">14</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">6</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">25.71</td>
+			<td class="BoxText_1_C" align="center">89.47</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">43</td>
+			<td class="BoxText_1_C" align="center">13</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">6</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">79.37</td>
+			<td class="BoxText_1_C" align="center">83.33</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">44</td>
+			<td class="BoxText_1_C" align="center">13</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">6</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">74.07</td>
+			<td class="BoxText_1_C" align="center">100.0</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">45</td>
+			<td class="BoxText_1_C" align="center">12</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">6</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">93.65</td>
+			<td class="BoxText_1_C" align="center">100.0</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">46</td>
+			<td class="BoxText_1_C" align="center">12</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">6</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">27.41</td>
+			<td class="BoxText_1_C" align="center">94.74</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">47</td>
+			<td class="BoxText_1_C" align="center">12</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">6</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">22.14</td>
+			<td class="BoxText_1_C" align="center">89.47</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">48</td>
+			<td class="BoxText_1_C" align="center">12</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">6</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">12.86</td>
+			<td class="BoxText_1_C" align="center">0.0</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">49</td>
+			<td class="BoxText_1_C" align="center">12</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">5</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">56.35</td>
+			<td class="BoxText_1_C" align="center">94.44</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">50</td>
+			<td class="BoxText_1_C" align="center">10</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">6</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">64.29</td>
+			<td class="BoxText_1_C" align="center">100.0</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">51</td>
+			<td class="BoxText_1_C" align="center">10</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">6</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">30.16</td>
+			<td class="BoxText_1_C" align="center">100.0</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">52</td>
+			<td class="BoxText_1_C" align="center">10</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">6</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">28.15</td>
+			<td class="BoxText_1_C" align="center">100.0</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">53</td>
+			<td class="BoxText_1_C" align="center">9</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">6</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">34.92</td>
+			<td class="BoxText_1_C" align="center">83.33</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">54</td>
+			<td class="BoxText_1_C" align="center">8</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">6</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">80.71</td>
+			<td class="BoxText_1_C" align="center">94.74</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">55</td>
+			<td class="BoxText_1_C" align="center">7</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">6</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">53.97</td>
+			<td class="BoxText_1_C" align="center">100.0</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">56</td>
+			<td class="BoxText_1_C" align="center">5</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">6</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">29.29</td>
+			<td class="BoxText_1_C" align="center">100.0</td>
+		</tr>
+
+		<tr>
+			<td class="BoxText_1_C" align="center">57</td>
+			<td class="BoxText_1_C" align="center">5</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">6</td>
+			<td class="BoxText_1_C" align="center">N</td>
+			<td class="BoxText_1_C" align="center">25.19</td>
+			<td class="BoxText_1_C" align="center">89.47</td>
+		</tr>
+
+	</tr>
+</table>	
+<br>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td width="100%" align="center" height="25">
+            <a href="javascript:self.close()"><img src="../images/close.gif" border=0></a>
+            </td>
+        </tr>
+</table>
+</form>
+</body>
+</html>
+
+
