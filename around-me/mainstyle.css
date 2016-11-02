@@ -1,0 +1,74 @@
+@import url(http://cdn.jsdelivr.net/font-nanum/1.0/nanumgothic/nanumgothic.css);    /*gets nanum gothic font*/ 
+
+html {
+	font-family: "Nanum Gothic";
+}
+
+body
+{
+	margin: 0;
+	text-align: center;
+	font-size: 11pt;
+}
+
+.upperside
+{
+	background-color: #7AC943;
+	padding: 5%;
+	font-size: 15pt;
+	width : 100%;
+	margin-top: 0px;
+}
+
+.title
+{
+	font-size: 24pt;
+	vertical-align: middle;
+}
+
+.pos
+{
+	font-size: 10pt;
+}
+
+.logout
+{
+	font-size: 8pt;
+	height: 30px;
+	width: 60px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+section
+{
+	background-color: #FFFFFF;
+	height : 80%;
+}
+
+#weatherImage
+{
+	margin-top: 50px;
+	width : 30%;
+	height : 30%;
+}
+
+h1
+{
+	font-size: 30pt;
+}
+
+footer {
+	vertical-align: bottom;
+	background-color: #7AC943;
+	height: 15%;
+	bottom: 0;
+	width: 100%;
+	position: absolute;
+}
+
+footer img
+{
+	width : 30px;
+	height : 30px;
+}

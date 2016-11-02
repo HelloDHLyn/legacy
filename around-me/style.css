@@ -1,0 +1,267 @@
+@import url(http://cdn.jsdelivr.net/font-nanum/1.0/nanumgothic/nanumgothic.css);	/*gets nanum gothic font*/
+
+
+@media handheld and(max-width: 480px), screen and (max-device-width: 480px), screen and (max-width: 480px) {
+
+ /*!
+ * # Semantic UI 1.12.2 - Input
+ * http://github.com/semantic-org/semantic-ui/
+ *
+ *
+ * Copyright 2014 Contributors
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+
+
+/*******************************
+           Standard
+*******************************/
+
+
+/*--------------------
+        Inputs
+---------------------*/
+
+.ui.input {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  color: rgba(0, 0, 0, 0.8);
+}
+.ui.input input {
+  max-width: 100%;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 1 auto;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  text-align: left;
+  line-height: 1.2142em;
+  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  padding: 0.67861em 1em;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  color: rgba(0, 0, 0, 0.8);
+  border-radius: 0.2857rem;
+  -webkit-transition: background-color 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+          transition: background-color 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  box-shadow: none;
+}
+
+/*--------------------
+      Placeholder
+---------------------*/
+
+
+/* browsers require these rules separate */
+.ui.input input::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+.ui.input input::-moz-placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+.ui.input input::-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+
+/*******************************
+            States
+*******************************/
+
+
+/*--------------------
+        Active
+---------------------*/
+
+.ui.input input:active,
+.ui.input.down input {
+  border-color: rgba(0, 0, 0, 0.3);
+  background: #fafafa;
+  color: rgba(0, 0, 0, 0.8);
+  box-shadow: none;
+}
+
+
+/*******************************
+         Theme Overrides
+*******************************/
+
+
+/*!
+ * # Semantic UI 1.12.2 - Button
+ * http://github.com/semantic-org/semantic-ui/
+ *
+ *
+ * Copyright 2014 Contributorss
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+
+
+/*******************************
+            Button
+*******************************/
+
+.ui.button {
+  cursor: pointer;
+  display: inline-block;
+  min-height: 1em;
+  outline: none;
+  border: none;
+  vertical-align: baseline;
+  background-color: #7ac943;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  margin: 0em 0.25em 0em 0em;
+  padding: 0.78571em 1.5em 0.78571em;
+  text-transform: none;
+  text-shadow: none;
+  font-weight: bold;
+  line-height: 1;
+  font-style: normal;
+  text-align: center;
+  text-decoration: none;
+  background-image: none;
+  border-radius: 0.2857rem;
+  box-shadow: 0px 0px 0px 1px transparent inset, 0px 0em 0px 0px rgba(39, 41, 43, 0.15) inset;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-transition: opacity 0.1s ease, background-color 0.1s ease, color 0.1s ease, box-shadow 0.1s ease, background 0.1s ease;
+          transition: opacity 0.1s ease, background-color 0.1s ease, color 0.1s ease, box-shadow 0.1s ease, background 0.1s ease;
+  will-change: '';
+  -webkit-tap-highlight-color: transparent;
+}
+
+
+/*******************************
+            States
+*******************************/
+
+
+/*--------------
+      Hover
+---------------*/
+
+.ui.button:hover {
+  background-color: #e8e8e8;
+  background-image: none;
+  box-shadow: '';
+  color: rgba(0, 0, 0, 0.8);
+}
+.ui.button:hover .icon {
+  opacity: 0.85;
+}
+
+	/****** index.php ******/
+	body {
+		font-family: "Nanum Gothic";
+		text-align: center;
+		margin: 0;
+	}
+
+	#title {
+		font-size: 24pt;
+		text-align: center;
+		background-color: #7ac943;
+		padding: 17px;
+	}
+
+	.ui.input {
+		margin-top: 20px;
+	}
+
+	form {
+		margin-bottom: 0;
+	}
+
+	.idpw {
+		font-size: 11pt;
+		text-align: left;
+		margin-top: 10px;
+	}
+
+	/* span of 처음이세요? */
+	span {
+		padding-left: 14px;
+	}
+
+	.textbox {
+		margin-top: 5px;
+	}
+
+	#autolog {
+		margin: 0;
+	}
+
+	#autolog_text {
+		text-align: left;
+		margin: 0;
+		margin-top: 7px;
+		margin-bottom: 20px;
+		padding-left: 14px;
+		font-size: 10pt;
+	}
+	
+	.register {
+		margin-top: 20%;
+		margin-left: 7%;
+		text-align: left;
+	}
+
+	#you_new {
+		font-size: 14pt;
+	}
+
+	#new {
+		text-decoration: none;
+		font-size: 18pt;
+	}
+
+	#find {
+		padding-left: 14px;
+	}
+
+	#find li {
+		display: inline-block;
+		font-size: 10pt;
+	}
+
+	#find li a {
+		text-decoration: none;
+	}
+
+	#copy {
+		position: absolute;
+		text-align: left;
+		font-size: 8pt;
+		background-color: #7ac943;
+		height: 10%;
+		bottom: 0;
+		width: 100%;
+	}
+
+	#copyright_text {
+		font-style: oblique;
+		position: relative;
+		padding-left: 10px;
+		top: 40%;
+		-webkit-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		transform: translateY(-50%);
+	}
+	/* end of index.php */
+
+	/* starts styling of join.php */
+	{
+
+	}
+
+}
