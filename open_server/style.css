@@ -1,0 +1,68 @@
+@import url(http://cdn.jsdelivr.net/font-nanum/1.0/nanumgothic/nanumgothic.css);
+
+* {
+	font-family: 'Nanum Gothic';
+}
+
+body {
+	margin: 0;
+	line-height: 1.5em;
+	width: 100%;
+}
+
+h1 {
+	padding: 0;
+	margin: 0;
+	line-height: 96px;
+	color: #ffffff;
+	text-align: center;
+	font-weight: lighter;
+}
+
+input:not(.donate) {
+	background-color: #ecf0f1;
+	font-size: 110%;
+	height: 48px;
+	border: 0;
+	padding: 0 0.5em;
+	margin: 0.1em 0.1em;
+	-webkit-transition: background-color 0.5s ease;
+	-moz-transition: background-color 0.5s ease;
+	-o-transition: background-color 0.5s ease;
+	transition: background-color 0.5s ease;
+	outline: none;
+}
+
+input:focus {
+	box-shadow: 0 0 12px #ecf0f1;
+	background: #aaaaaa;
+}
+
+a {
+	color: #222222;
+}
+
+@media screen and (max-width:480px) {
+	#advertise {
+		display: none;
+	}
+}
+
+del {
+	color: #aaaaaa;
+}
+
+.header {
+	height: 96px;
+	background-color: #000000;
+}
+
+.section {
+	padding: 1% 5%;
+	border-bottom: 1px solid #d8d8d8;
+}
+
+.center {
+	text-align: center;
+}
+
